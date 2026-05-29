@@ -1,0 +1,20 @@
+# Local editor and OS files
+.DS_Store
+.vscode/
+.codex_tmp/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Large simulation data and external reference implementation
+Transient_k-e/
+Cavity-RANS/
+
+# Model checkpoints are reproducible and too large for the repository
+outputs/models/
+*.pt
+*.pth
+
+# Course/private planning materials that are not part of the code release
+*.txt
+*.pdf
